@@ -1,6 +1,6 @@
 function AppFooter() {
   function handleNameClick() {
-    window.open("https://afriddev.vercel.app");
+    window.open("https://harshidev01.github.io/");
   }
 
   return (
@@ -10,7 +10,7 @@ function AppFooter() {
         <label className="flex text-nowrap text-gray-400 gap-1">
           Made with 💛 by{" "}
           <a className="cursor-pointer" onClick={handleNameClick}>
-            Shaik Afrid
+            Harshitha venkat
           </a>
         </label>
       </div>

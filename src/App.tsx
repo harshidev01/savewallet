@@ -8,7 +8,7 @@ function App() {
       <div className="flex flex-col gpa-4  h-[90vh] ">
         <AppNavbar />
         <div className="px-6 h-full">
-          <SaveWalletMain />
+          <SaveWalletMain/>
         </div>
       </div>
 

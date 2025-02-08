@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import Button from "../appcomponents/Button";
-import { GET_STARTED, READ_MORE } from "../appcomponents/AppConstants";
+import { GET_STARTED, READ_MORE } from "../appcomponents/appConstants";
 
 interface SelecttypeCardInterface {
   title: ReactNode;
