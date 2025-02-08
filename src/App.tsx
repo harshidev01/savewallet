@@ -1,18 +1,16 @@
-import AppFooter from "./features/appcomponents/Appfooter";
-import AppNavbar from "./features/appcomponents/AppNavbar";
+import ChoosePlan from "./features/components/ChoosePlan";
 import SaveWalletMain from "./features/components/SaveWalleMain";
+import {BrowserRouter,Routes,Route} from "react-router-dom"
 
 function App() {
   return (
-    <div className=" flex gap-2  flex-col font-mono text-xs px-2">
-      <div className="flex flex-col gpa-4  h-[90vh] ">
-        <AppNavbar />
-        <div className="px-6 h-full">
-          <SaveWalletMain/>
-        </div>
-      </div>
-
-      <AppFooter />
+    <div className="w-[100vw] h-[100vh]">
+      <BrowserRouter>
+    <Routes>
+      <Route path="/" element= {<SaveWalletMain/>}/>
+      <Route path="/chooseplan" element={<ChoosePlan/>}/>
+    </Routes>
+    </BrowserRouter>
     </div>
   );
 }

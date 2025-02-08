@@ -1,6 +1,6 @@
 function AppNavbar() {
   return (
-    <div className="w-full min-h-10 bg-white text-black px-2 py-2 items-center justify-between flex">
+    <div className="w-full min-h-10  text-black px-2 py-2 items-center justify-between flex">
       <img
         src="logo.png"
         className="cursor-pointer  w-[20vw]   object-cover h-[15vh]"
