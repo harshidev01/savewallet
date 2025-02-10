@@ -4,7 +4,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 
 function App() {
   return (
-    <div className="w-[100vw] h-[100vh]">
+    <div className="w-[100vw] h-[100vh] font-mono">
       <BrowserRouter>
     <Routes>
       <Route path="/" element= {<SaveWalletMain/>}/>

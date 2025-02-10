@@ -9,10 +9,10 @@ function ChoosePlan() {
         <AppNavbar />
       </div>
       <div className="flex flex-col gap-[5vh] justify-center items-center">
-        <div className="text-[50px] w-[60vw] text-center flex justify-center font-bold">
+        <div className="text-[50px]  w-[60vw] text-center flex justify-center font-bold">
           Life planning, Making easy to turn dreams a reality.
         </div>
-        <div className="flex flex-col gap-[5vh] w-full">
+        <div className="flex flex-col gap-[4vh] w-full">
           <div className="flex flex-row w-full h-fit items-center">
           <div className="font-bold px-10 text-2xl">Featured Plans</div>
           
@@ -22,9 +22,10 @@ function ChoosePlan() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="py-3.5">
         <AppFooter />
       </div>
+      
     </div>
   );
 }

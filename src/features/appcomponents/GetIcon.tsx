@@ -19,6 +19,10 @@ function GetIcon({ icon, className }: GetIconInterface) {
 
       case "read":
         return <IoReaderOutline className={` h-5 w-5 ${className}`} />;
+      
+      case "letsgo":
+        return <IoReaderOutline className={` h-5 w-5 ${className}`} />;
+      
     }
   }
 
